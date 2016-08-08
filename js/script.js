@@ -42,11 +42,11 @@ var middleChar = function(sentence) {
 // console.log(middleChar(both(sentence)).split("").reverse().join(""));
 
 jQuery(document).ready(function() {
-  jQuery("h1").click(function() {
-    alert("This is a header.");
+  jQuery("button").click(function() {
+    alert("You are about to leave this page");
   });
 
   jQuery("h2").click(function() {
-    alert("This is a header, too");
+    alert("There's so much to learn about JavaScript.");
   });
 });
